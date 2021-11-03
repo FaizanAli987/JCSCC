@@ -1,0 +1,294 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*-------------Home-Page--- -----------*/
+
+/*-------------navbar--------------*/
+.navbar img{
+    width: 200px;
+}
+.navbar{
+    padding: 0 0;
+	background-color: white;
+	box-shadow: 0 4px 12px 0 rgb(38 39 39 / 8%);
+    background: #fff;
+  }
+.navbar-nav .nav-item a {
+    font-size: .875rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #262727;
+}
+/*-------------banner--------------*/
+.banner-img{
+    height: 100vh;
+    background-image: url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*-------------message--------------*/
+.message-sec{
+	border-radius: 20px;
+
+	margin-top: -200px;
+	padding: 50px 30px;
+	background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 3px 6px #00000029;
+}
+.message-sec p{
+    font-size: 16px;
+    line-height: 1.6em;
+    color: white;
+}
+.message-sec h5{
+	color: white;
+	font-size: 24px;
+}
+.message-sec img{
+	max-width: 230px;
+	border-radius: 20px;
+}
+.message-sec a{
+	cursor: pointer;
+}
+/*-------------Board of Members--------------*/
+.board-member .row>div>div{
+    max-width: 250px;
+    margin: auto;
+}
+
+/*------------crousel-media-gallery------------*/
+.media-gallery{
+        background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+        padding: 30px 0;
+}
+.media-gallery  a{
+    cursor: pointer;
+}
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px; }
+  .owl-2-style .owl-dots .owl-dot {
+    display: inline-block; }
+.owl-2-style .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 15px;
+      height: 3px;
+      border-radius: 0px;
+      background: #cccccc;
+      -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      margin: 3px; }
+.owl-2-style .owl-dots .owl-dot.active span {
+      background: #007bff; }
+.owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+      outline: none; }
+.owl-carousel .owl-nav .owl-prev{
+        position: absolute;
+        top: 40%;
+        left: -20px;
+        transform: translateY(50%);
+        outline: none;
+      }
+.owl-carousel .owl-nav .owl-next{
+        position: absolute;
+        top: 40%;
+        right: -20px;
+        transform: translateY(50%);
+        outline: none;
+      }
+.owl-carousel .owl-nav span{
+        font-size: 25px;
+    }
+    /*------------crousel-Webinars------------*/
+
+.webinars{
+    padding: 30px 10px;
+}
+/*------------contact-us------------*/
+.contact-us{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)), url(../images/contact-us.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact-us form{
+    padding: 30px 30px;
+    background-color: white;
+}
+.contact-us form .form-group{
+    position: relative;
+    text-align: left;
+}
+.contact-us form .form-group input,
+.contact-us form .form-group textarea{
+    padding: 30px 10px 20px 10px;
+    font-size: 14px;
+    resize: none;
+}
+.contact-us form .form-group label{
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    color: gray;
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.contact-us form .form-group textarea:valid ~ label,
+.contact-us form .form-group textarea:focus ~ label,
+.contact-us form .form-group input:focus ~ label,
+.contact-us form .form-group input:valid ~ label{
+    color: black;
+    transform: translateY(-15px);
+}
+
+.contact-us form .btn{
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+.contact-us form .btn:hover{
+    background-color: white;
+    color: black!important;
+}
+/*------------footer------------*/
+.page-footer .footer-copyright{
+    background-color: black;
+}
+.page-footer img{
+    width: 200px;
+}
+.page-footer .fa{
+    font-size: 20px;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: black;
+}
+.page-footer i:hover{
+    color: pink;
+}
+/*-----------Board-of-Trustees-Page-------------*/
+.board-trustees img{
+    max-width: 100%;
+}
+.board-heading{
+    width: 600px;
+    text-align: center;
+    padding: 30px 60px;
+    color: white;
+    margin: auto;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
+}
+.board-trustees .sahar-bg{
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+}
+.board-trustees .brig-bg{
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+}
+.board-trustees .all-text{
+    padding: 0 80px;
+}
+.board-trustees .all-text p{
+    padding: 15px 0;
+    font-size: 14px;
+}
+.board-trustees h5{
+    font-size: 16px;
+}
+/*-----------About-us------------*/
+.about-us p{
+    margin: 0 80px;
+    text-align: center;
+}
+/*-----------contact------------*/
+
+/*------------------Media-Query------------------*/
+
+/*----------------Home-page-----------------*/
+@media(max-width: 768px){
+.message-sec{
+	border-radius: 20px;
+	margin-top: -130px;
+	padding: 30px 15px;
+}
+.message-sec p{
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: center;
+    padding: 0 10px;
+}
+.board-member img{
+    margin: 30px 0;
+}
+.contact-us form{
+    padding: 24px 20px;
+    background-color: white;
+}
+@media(max-width: 567px){
+.message-sec{
+    border-radius: 20px;
+    margin-top: -100px;
+    padding: 20px 10px;
+}
+.message-sec p{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.message-sec{
+    border-radius: 0;
+    padding: 10px 15px;
+}
+.board-member img{
+    margin: 30px 0;
+}
+.media-gallery h1{
+    padding: 20px 0;
+}
+.owl-carousel .owl-nav .owl-prev{
+        left: -12px;
+      }
+.owl-carousel .owl-nav .owl-next{
+        right: -12px;
+      }
+/*-----------.board-trustees-page---------------*/
+.board-trustees h2{
+        text-align: center;
+        padding: 20px 0;
+    }
+.board-trustees h5,p{
+        text-align: center;
+        padding: 5px 0;
+    }
+.board-heading{
+    width: auto;
+    background-image: linear-gradient(to right top, #060a0d, #090d11, #0d1015, #101217, #14141a);   color: white;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+}
+.board-heading h1{
+    font-size: 26px;
+}
+.board-trustees h3{
+    font-size: 22px;
+}
+.board-trustees h5{
+    font-size: 14px;
+}
+
+}
